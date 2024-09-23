@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/todo.css">
+    <link rel="stylesheet" href="./styles/dark-mode.css">
+
+</head>
+<body>
+    <header>
+        <h1>ToDo</h1>
+    </header>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="./index.html">Hem</a></li>
+            <li><a href="./kontakt.html">Kontakt</a></li>
+            <li><a href="./todo.html">ToDo</a></li>
+        </ul>
+    </nav>
+
+    <div id="todo">
+        <h2>Min To-Do-lista</h2>
+        <input type="text" id="task" placeholder="Lägg till uppgift">
+        <button onclick="addTask()">Lägg till</button>
+        <ul id="taskList"></ul>
+    </div>
+
+
+    <script src="./scripts/todo-script.js"></script>
+</body>
+</html>
